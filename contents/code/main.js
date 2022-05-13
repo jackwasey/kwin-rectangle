@@ -279,7 +279,7 @@ function manage (division) {
 
 function shortcut (text, shortcut, placement) {
   text = 'Rectangle: ' + text
-  shortcut = 'Ctrl+Meta+' + shortcut
+  shortcut = 'Ctrl+Alt+' + shortcut
   registerShortcut(text, text, shortcut, () => manage(placement))
 }
 
@@ -288,10 +288,10 @@ shortcut('Quarter: Top Right', 'I', divisions.FOURTHS.NE)
 shortcut('Quarter: Bottom Left', 'J', divisions.FOURTHS.SW)
 shortcut('Quarter: Bottom Right', 'K', divisions.FOURTHS.SE)
 
-shortcut('Fourth: First', 'V', divisions.FOURTHS.FIRST)
-shortcut('Fourth: Second', 'B', divisions.FOURTHS.SECOND)
-shortcut('Fourth: Third', 'N', divisions.FOURTHS.THIRD)
-shortcut('Fourth: Fourth', 'M', divisions.FOURTHS.FOURTH)
+shortcut('Fourths: First', 'V', divisions.FOURTHS.FIRST)
+shortcut('Fourths: Second', 'B', divisions.FOURTHS.SECOND)
+shortcut('Fourths: Third', 'N', divisions.FOURTHS.THIRD)
+shortcut('Fourths: Fourth', 'M', divisions.FOURTHS.FOURTH)
 
 shortcut('Thirds: First', 'D', divisions.THIRDS.LEFT)
 shortcut('Thirds: Second', 'F', divisions.THIRDS.CENTER)
@@ -313,15 +313,15 @@ shortcut('Halves: Right', 'Right', divisions.HALVES.RIGHT)
 shortcut('Halves: Top', 'Up', divisions.HALVES.TOP)
 shortcut('Halves: Bottom', 'Down', divisions.HALVES.BOTTOM)
 
-shortcut('Move: Left', 'Alt+Left', divisions.MOVE.LEFT)
-shortcut('Move: Right', 'Alt+Right', divisions.MOVE.RIGHT)
-shortcut('Move: Top', 'Alt+Up', divisions.MOVE.TOP)
-shortcut('Move: Bottom', 'Alt+Down', divisions.MOVE.BOTTOM)
+shortcut('Move: Left', 'Meta+Left', divisions.MOVE.LEFT)
+shortcut('Move: Right', 'Meta+Right', divisions.MOVE.RIGHT)
+shortcut('Move: Top', 'Meta+Up', divisions.MOVE.TOP)
+shortcut('Move: Bottom', 'Meta+Down', divisions.MOVE.BOTTOM)
 
-shortcut('Maximize Height', 'Shift+Alt+Up', divisions.MAX.HEIGHT)
-shortcut('Maximize Width', 'Shift+Alt+Right', divisions.MAX.WIDTH)
+shortcut('Maximize Height', 'Shift+Meta+Up', divisions.MAX.HEIGHT)
+shortcut('Maximize Width', 'Shift+Meta+Right', divisions.MAX.WIDTH)
 
 shortcut('Center', 'C', divisions.CENTER)
 shortcut('Maximized', 'Return', divisions.MAX.ALL)
 shortcut('Almost Maximized', 'Shift+Return', divisions.MAX_SPACED)
-shortcut('Centered Quarter', 'Alt+C', divisions.CENTERED_QUARTER)
+shortcut('Centered Quarter', 'Meta+C', divisions.CENTERED_QUARTER)

@@ -2,40 +2,40 @@ A kwin script to mimic macOS's Rectangle tiling options in Plasma.
 
 It allows manual tiling with the following shortcuts (configurable in settings):
 
-- Quarter: Top Left: `Ctrl+Meta+U`
-- Quarter: Top Right: `Ctrl+Meta+I`
-- Quarter: Bottom Left: `Ctrl+Meta+J`
-- Quarter: Bottom Right: `Ctrl+Meta+K`
-- Fourth: First: `Ctrl+Meta+V`
-- Fourth: Second: `Ctrl+Meta+B`
-- Fourth: Third: `Ctrl+Meta+N`
-- Fourth: Fourth: `Ctrl+Meta+M`
-- Thirds: First: `Ctrl+Meta+D`
-- Thirds: Second: `Ctrl+Meta+F`
-- Thirds: Third: `Ctrl+Meta+G`
-- Two Thirds: First: `Ctrl+Meta+E`
-- Two Thirds: Second: `Ctrl+Meta+T`
-- Sixth: Top Left: `Ctrl+Meta+Shift+U`
-- Sixth: Top Center: `Ctrl+Meta+Shift+I`
-- Sixth: Top Right: `Ctrl+Meta+Shift+O`
-- Sixth: Bottom Left: `Ctrl+Meta+Shift+J`
-- Sixth: Bottom Center: `Ctrl+Meta+Shift+K`
-- Sixth: Bottom Right: `Ctrl+Meta+Shift+L`
-- Halves: Left: `Ctrl+Meta+Left`
-- Halves: Center: `Ctrl+Meta+Shift+C`
-- Halves: Right: `Ctrl+Meta+Right`
-- Halves: Top: `Ctrl+Meta+Up`
-- Halves: Bottom: `Ctrl+Meta+Down`
-- Move: Left: `Ctrl+Meta+Alt+Left`
-- Move: Right: `Ctrl+Meta+Alt+Right`
-- Move: Top: `Ctrl+Meta+Alt+Up`
-- Move: Bottom: `Ctrl+Meta+Alt+Down`
-- Maximize Height: `Ctrl+Meta+Shift+Alt+Up`
-- Maximize Width: `Ctrl+Meta+Shift+Alt+Right`
-- Center: `Ctrl+Meta+C`
-- Maximized: `Ctrl+Meta+Return`
-- Almost Maximized: `Ctrl+Meta+Shift+Return`
-- Centered Quarter: `Ctrl+Meta+Alt+C`
+- Quarter: Top Left: `Ctrl+Alt+U`
+- Quarter: Top Right: `Ctrl+Alt+I`
+- Quarter: Bottom Left: `Ctrl+Alt+J`
+- Quarter: Bottom Right: `Ctrl+Alt+K`
+- Fourths: First: `Ctrl+Alt+V`
+- Fourths: Second: `Ctrl+Alt+B`
+- Fourths: Third: `Ctrl+Alt+N`
+- Fourths: Fourth: `Ctrl+Alt+M`
+- Thirds: First: `Ctrl+Alt+D`
+- Thirds: Second: `Ctrl+Alt+F`
+- Thirds: Third: `Ctrl+Alt+G`
+- Two Thirds: First: `Ctrl+Alt+E`
+- Two Thirds: Second: `Ctrl+Alt+T`
+- Sixth: Top Left: `Ctrl+Alt+Shift+U`
+- Sixth: Top Center: `Ctrl+Alt+Shift+I`
+- Sixth: Top Right: `Ctrl+Alt+Shift+O`
+- Sixth: Bottom Left: `Ctrl+Alt+Shift+J`
+- Sixth: Bottom Center: `Ctrl+Alt+Shift+K`
+- Sixth: Bottom Right: `Ctrl+Alt+Shift+L`
+- Halves: Left: `Ctrl+Alt+Left`
+- Halves: Center: `Ctrl+Alt+Shift+C`
+- Halves: Right: `Ctrl+Alt+Right`
+- Halves: Top: `Ctrl+Alt+Up`
+- Halves: Bottom: `Ctrl+Alt+Down`
+- Move: Left: `Ctrl+Alt+Meta+Left`
+- Move: Right: `Ctrl+Alt+Meta+Right`
+- Move: Top: `Ctrl+Alt+Meta+Up`
+- Move: Bottom: `Ctrl+Alt+Meta+Down`
+- Maximize Height: `Ctrl+Alt+Shift+Meta+Up`
+- Maximize Width: `Ctrl+Alt+Shift+Meta+Right`
+- Center: `Ctrl+Alt+C`
+- Maximized: `Ctrl+Alt+Return`
+- Almost Maximized: `Ctrl+Alt+Shift+Return`
+- Centered Quarter: `Ctrl+Alt+Meta+C`
 
 # Installation
 
